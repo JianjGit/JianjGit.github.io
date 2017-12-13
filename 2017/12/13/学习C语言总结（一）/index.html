@@ -4,25 +4,25 @@
 <head>
   <meta charset="UTF-8">
   
-    <title>Hello World | Jianj 的博客</title>
+    <title>学习C语言总结（一） | Jianj 的博客</title>
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
     
     <meta name="author" content="Jianj">
     
 
     
-    <meta name="description" content="Welcome to Jianj‘s blog. This is my first article in Github pages. I will try my best to practise English writing in this blog, and summarize programming skills that I learn from diffrerent platforms.">
-<meta name="keywords" content="essay">
+    <meta name="description" content="学习C语言总结（一） #注：简要记录我有点理不清的内容，可能不全面，或有错误，以后更改。  定义变量： type variable定义常量：   #define identifier value const type variable value#区别：const类似于定义变量，只不过只可读    存储类：   auto：默认的局部变量 register：寄存器中，大小很小 static：在作用域">
+<meta name="keywords" content="C,summary">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="https://jianjgit.github.io/2017/10/02/hello-world/index.html">
+<meta property="og:title" content="学习C语言总结（一）">
+<meta property="og:url" content="https://jianjgit.github.io/2017/12/13/学习C语言总结（一）/index.html">
 <meta property="og:site_name" content="Jianj 的博客">
-<meta property="og:description" content="Welcome to Jianj‘s blog. This is my first article in Github pages. I will try my best to practise English writing in this blog, and summarize programming skills that I learn from diffrerent platforms.">
+<meta property="og:description" content="学习C语言总结（一） #注：简要记录我有点理不清的内容，可能不全面，或有错误，以后更改。  定义变量： type variable定义常量：   #define identifier value const type variable value#区别：const类似于定义变量，只不过只可读    存储类：   auto：默认的局部变量 register：寄存器中，大小很小 static：在作用域">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2017-10-02T11:31:37.614Z">
+<meta property="og:updated_time" content="2017-12-13T16:35:34.263Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Welcome to Jianj‘s blog. This is my first article in Github pages. I will try my best to practise English writing in this blog, and summarize programming skills that I learn from diffrerent platforms.">
+<meta name="twitter:title" content="学习C语言总结（一）">
+<meta name="twitter:description" content="学习C语言总结（一） #注：简要记录我有点理不清的内容，可能不全面，或有错误，以后更改。  定义变量： type variable定义常量：   #define identifier value const type variable value#区别：const类似于定义变量，只不过只可读    存储类：   auto：默认的局部变量 register：寄存器中，大小很小 static：在作用域">
 
     
     <link rel="alternative" href="/atom.xml" title="Jianj 的博客" type="application/atom+xml">
@@ -82,14 +82,14 @@
 		<header class="article-info clearfix">
   <h1 itemprop="name">
     
-      <a href="/2017/10/02/hello-world/" title="Hello World" itemprop="url">Hello World</a>
+      <a href="/2017/12/13/学习C语言总结（一）/" title="学习C语言总结（一）" itemprop="url">学习C语言总结（一）</a>
   </h1>
   <p class="article-author">By
        
 		<a href="/about" title="Jianj" target="_blank" itemprop="author">Jianj</a>
 		
   <p class="article-time">
-    <time datetime="2017-10-02T11:18:42.000Z" itemprop="datePublished"> 发表于 2017-10-02</time>
+    <time datetime="2017-12-13T15:48:03.000Z" itemprop="datePublished"> 发表于 2017-12-13</time>
     
   </p>
 </header>
@@ -98,15 +98,36 @@
 		<div id="toc" class="toc-article">
 			<strong class="toc-title">文章目录</strong>
 		
-			
+			<ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#学习C语言总结（一）"><span class="toc-number">1.</span> <span class="toc-text">学习C语言总结（一）</span></a></li></ol>
 		
 		</div>
 		
-		<p>Welcome to Jianj‘s blog.</p>
-<p>This is my first article in Github pages.</p>
-<p>I will try my best to practise English writing in this blog, and summarize programming skills that I learn from diffrerent platforms.</p>
-<p>随笔使用英文，技术总结用中文。</p>
-<p>希望我能坚持写下去吧^_^</p>
+		<h1 id="学习C语言总结（一）"><a href="#学习C语言总结（一）" class="headerlink" title="学习C语言总结（一）"></a>学习C语言总结（一）</h1><p><br></p>
+<font color="gray" size="2">#注：简要记录我有点理不清的内容，可能不全面，或有错误，以后更改。</font>
+
+<p><strong>定义变量</strong>： type variable<br><strong>定义常量</strong>： </p>
+<ul>
+<li>#define identifier value</li>
+<li>const type variable value<br><font color="gray" size="2">#区别：const类似于定义变量，只不过只可读</font>
+
+</li>
+</ul>
+<p><strong>存储类</strong>： </p>
+<ul>
+<li>auto：默认的局部变量</li>
+<li>register：寄存器中，大小很小</li>
+<li>static：在作用域内一直保存<ol>
+<li>静态局部变量，函数中</li>
+<li>静态全局变量，文件中，默认的全局变量</li>
+</ol>
+</li>
+<li>extern：全局变量，用于文件之间<br><font color="gray" size="2">#static 和 extern 都放在静态存储区，auto 放在栈中</font>
+
+</li>
+</ul>
+<p><strong>siezeof</strong>：返回变量大小<br><strong>&amp;</strong>：返回变量地址<br><strong>*</strong>：指向一个变量</p>
+<p><strong>函数定义</strong>：<br>return_type function_name (parameter_list)<br>{<br>    function_body<br>}<br></p>
+<font color="gray" size="2">#无返回用 void</font>
   
 	</div>
 		<footer class="article-footer clearfix">
@@ -114,13 +135,13 @@
 
 <div class="article-categories">
   <span></span>
-  <a class="article-category-link" href="/categories/essay/">essay</a>
+  <a class="article-category-link" href="/categories/programming-learning/">programming learning</a>
 </div>
 
 
   <div class="article-tags">
   
-  <span></span> <a href="/tags/essay/">essay</a>
+  <span></span> <a href="/tags/C/">C</a><a href="/tags/summary/">summary</a>
   </div>
 
 </div>
@@ -129,7 +150,7 @@
 
 	<div class="article-share" id="share">
 	
-	  <div data-url="https://jianjgit.github.io/2017/10/02/hello-world/" data-title="Hello World | Jianj 的博客" data-tsina="" class="share clearfix">
+	  <div data-url="https://jianjgit.github.io/2017/12/13/学习C语言总结（一）/" data-title="学习C语言总结（一） | Jianj 的博客" data-tsina="" class="share clearfix">
 	  </div>
 	
 	</div>
@@ -142,14 +163,14 @@
 	
 <nav class="article-nav clearfix">
  
- <div class="prev" >
- <a href="/2017/10/09/Dairy_2017-10-9/" title="Dairy_2017-10-9">
-  <strong>上一篇：</strong><br/>
-  <span>
-  Dairy_2017-10-9</span>
+
+<div class="next">
+<a href="/2017/10/09/Dairy_2017-10-9/"  title="Dairy_2017-10-9">
+ <strong>下一篇：</strong><br/> 
+ <span>Dairy_2017-10-9
+</span>
 </a>
 </div>
-
 
 </nav>
 
@@ -162,7 +183,7 @@
   <div id="toc" class="toc-aside">
   <strong class="toc-title">文章目录</strong>
  
- 
+ <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#学习C语言总结（一）"><span class="toc-number">1.</span> <span class="toc-text">学习C语言总结（一）</span></a></li></ol>
  
   </div>
 
